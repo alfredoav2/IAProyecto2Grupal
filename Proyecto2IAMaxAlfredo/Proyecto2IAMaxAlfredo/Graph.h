@@ -13,9 +13,9 @@ public:
     Queue<NG*> qv;
     NG* padre = nullptr;
     Graph() {}
-    Graph(T data) {
+    Graph(T data, int v) {
         if (!padre) {
-            padre = new NG(data);
+            padre = new NG(data, v);
         }
     }
 
@@ -23,7 +23,7 @@ public:
         NG* tmp = DSearch(dataParend);
         if (tmp != nullptr && dataParend != data) {
             if (DSearch(data) == nullptr) {
-                tmp->adyacentes.push_back(new NG(data));
+                tmp->adyacentes.push_back(new NG(data, 10000));
                 tmp->costoAdyacentes.push_back(cost);
             }
             else if (searchPadre(tmp, data) == nullptr) {
@@ -183,6 +183,18 @@ public:
     }
 
     void Dijkstra(NG* start, NG* end) {
+        Queue<NG*> qd;
+        NG* tmp = start;
+        qd.push(tmp);
+        for (int i = 0; i < tmp->adyacentes.size(); i++) {
+            int costeConeccion = tmp->costoAdyacentes.at(i) + tmp->val;
+            if (tmp->adyacentes.at(i)->visitado == false) {
+                if (tmp->adyacentes.at(i)->val < costeConeccion) {
+                    tmp->adyacentes.at(i)->val = costeConeccion;
+                }
+                qd.push(tmp->adyacentes.at(i));
+            }
+        }
 
     }
 

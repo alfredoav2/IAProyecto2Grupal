@@ -1,8 +1,30 @@
 ﻿  Proyecto2IAMaxAlfredo.cpp
+C:\Users\Usuario\Desktop\proyecto adidier\IAProyecto2Grupal\Proyecto2IAMaxAlfredo\Proyecto2IAMaxAlfredo\Graph.h(189,2): warning C4018: '<': no coinciden signed/unsigned
+C:\Users\Usuario\Desktop\proyecto adidier\IAProyecto2Grupal\Proyecto2IAMaxAlfredo\Proyecto2IAMaxAlfredo\Graph.h(185): message : al compilar la función del miembro clase plantilla "void Graph<int>::Dijkstra(GraphNode<T> *,GraphNode<T> *)"
+          with
+          [
+              T=int
+          ]
+C:\Users\Usuario\Desktop\proyecto adidier\IAProyecto2Grupal\Proyecto2IAMaxAlfredo\Proyecto2IAMaxAlfredo\Proyecto2IAMaxAlfredo.cpp(49): message : Vea la referencia a la creación de una instancia de la función plantilla "void Graph<int>::Dijkstra(GraphNode<T> *,GraphNode<T> *)" que se está compilando
+          with
+          [
+              T=int
+          ]
+C:\Users\Usuario\Desktop\proyecto adidier\IAProyecto2Grupal\Proyecto2IAMaxAlfredo\Proyecto2IAMaxAlfredo\Proyecto2IAMaxAlfredo.cpp(37): message : Vea la referencia a la creación de una instancia de clase plantilla "Graph<int>" que se está compilando
 C:\Users\Usuario\Desktop\proyecto adidier\IAProyecto2Grupal\Proyecto2IAMaxAlfredo\Proyecto2IAMaxAlfredo\Graph.h(171,2): warning C4018: '<': no coinciden signed/unsigned
 C:\Users\Usuario\Desktop\proyecto adidier\IAProyecto2Grupal\Proyecto2IAMaxAlfredo\Proyecto2IAMaxAlfredo\Graph.h(162): message : al compilar la función del miembro clase plantilla "void Graph<int>::printBFS(void)"
-C:\Users\Usuario\Desktop\proyecto adidier\IAProyecto2Grupal\Proyecto2IAMaxAlfredo\Proyecto2IAMaxAlfredo\Proyecto2IAMaxAlfredo.cpp(49): message : Vea la referencia a la creación de una instancia de la función plantilla "void Graph<int>::printBFS(void)" que se está compilando
-C:\Users\Usuario\Desktop\proyecto adidier\IAProyecto2Grupal\Proyecto2IAMaxAlfredo\Proyecto2IAMaxAlfredo\Proyecto2IAMaxAlfredo.cpp(37): message : Vea la referencia a la creación de una instancia de clase plantilla "Graph<int>" que se está compilando
+C:\Users\Usuario\Desktop\proyecto adidier\IAProyecto2Grupal\Proyecto2IAMaxAlfredo\Proyecto2IAMaxAlfredo\Proyecto2IAMaxAlfredo.cpp(51): message : Vea la referencia a la creación de una instancia de la función plantilla "void Graph<int>::printBFS(void)" que se está compilando
+C:\Users\Usuario\Desktop\proyecto adidier\IAProyecto2Grupal\Proyecto2IAMaxAlfredo\Proyecto2IAMaxAlfredo\Graph.h(117,2): warning C4018: '<': no coinciden signed/unsigned
+C:\Users\Usuario\Desktop\proyecto adidier\IAProyecto2Grupal\Proyecto2IAMaxAlfredo\Proyecto2IAMaxAlfredo\Graph.h(102): message : al compilar la función del miembro clase plantilla "GraphNode<T> *Graph<T>::DSearch(T)"
+          with
+          [
+              T=int
+          ]
+C:\Users\Usuario\Desktop\proyecto adidier\IAProyecto2Grupal\Proyecto2IAMaxAlfredo\Proyecto2IAMaxAlfredo\Proyecto2IAMaxAlfredo.cpp(49): message : Vea la referencia a la creación de una instancia de la función plantilla "GraphNode<T> *Graph<T>::DSearch(T)" que se está compilando
+          with
+          [
+              T=int
+          ]
 C:\Users\Usuario\Desktop\proyecto adidier\IAProyecto2Grupal\Proyecto2IAMaxAlfredo\Proyecto2IAMaxAlfredo\Graph.h(144,2): warning C4018: '<': no coinciden signed/unsigned
 C:\Users\Usuario\Desktop\proyecto adidier\IAProyecto2Grupal\Proyecto2IAMaxAlfredo\Proyecto2IAMaxAlfredo\Graph.h(138): message : al compilar la función del miembro clase plantilla "GraphNode<T> *Graph<T>::searchPadre(GraphNode<T> *,T)"
           with
@@ -10,17 +32,6 @@ C:\Users\Usuario\Desktop\proyecto adidier\IAProyecto2Grupal\Proyecto2IAMaxAlfred
               T=int
           ]
 C:\Users\Usuario\Desktop\proyecto adidier\IAProyecto2Grupal\Proyecto2IAMaxAlfredo\Proyecto2IAMaxAlfredo\Graph.h(29): message : Vea la referencia a la creación de una instancia de la función plantilla "GraphNode<T> *Graph<T>::searchPadre(GraphNode<T> *,T)" que se está compilando
-          with
-          [
-              T=int
-          ]
-C:\Users\Usuario\Desktop\proyecto adidier\IAProyecto2Grupal\Proyecto2IAMaxAlfredo\Proyecto2IAMaxAlfredo\Graph.h(117,2): warning C4018: '<': no coinciden signed/unsigned
-C:\Users\Usuario\Desktop\proyecto adidier\IAProyecto2Grupal\Proyecto2IAMaxAlfredo\Proyecto2IAMaxAlfredo\Graph.h(102): message : al compilar la función del miembro clase plantilla "GraphNode<T> *Graph<T>::DSearch(T)"
-          with
-          [
-              T=int
-          ]
-C:\Users\Usuario\Desktop\proyecto adidier\IAProyecto2Grupal\Proyecto2IAMaxAlfredo\Proyecto2IAMaxAlfredo\Graph.h(23): message : Vea la referencia a la creación de una instancia de la función plantilla "GraphNode<T> *Graph<T>::DSearch(T)" que se está compilando
           with
           [
               T=int
